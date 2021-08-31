@@ -1,7 +1,7 @@
 class fetchData extends Thread{  
     public void run(){ 
         try{
-            // long startTime = System.currentTimeMillis();
+            // long startTime = System.currentTimeMillis() ;
             Thread.sleep(500);
             long endTime = System.currentTimeMillis();
             System.out.println("fd "+(endTime - Main.startTime)+"ms");
